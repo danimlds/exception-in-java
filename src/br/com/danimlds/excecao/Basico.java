@@ -9,8 +9,6 @@ public class Basico {
 			System.out.println("Ocorreu o erro: " +e.getMessage());
 		}
 		
-		
-		
 		try {
 			System.out.println(7 / 0);
 		} catch (ArithmeticException e) {
