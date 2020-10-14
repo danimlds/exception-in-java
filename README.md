@@ -6,3 +6,12 @@ Estudos sobre exception na linguagem Java.
    * java.lang.Exception - o compilador obriga a tratar ou propagar
    * java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
 * Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada(tratada) ou o programa seja encerrado.
+
+# Por que exceções?
+
+* o modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas. 
+
+* Vantagens: 
+   * delega a lógica de erro para a classe responsável por conhecer as regras que podem ocasionar o erro.
+   * Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes.
+   * A exceção pode carregar dados quaisquer.
